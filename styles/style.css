@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* '' */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    background-color: #e5e5e5;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+/*----Section 1----*/
+
+.container-section1{
+    box-sizing: border-box;
+    /*background-color: #f99;*/
+    flex-grow: 0.7;
+    display: flex;
+}
+
+.logo{
+    padding-top: 25px;
+}
+
+.item1{
+    /* background-color: cadetblue; */
+    flex-grow: 0;
+}
+
+.item2{
+    /* background-color: aquamarine; */
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item2{
+    padding: 10px 100px;
+}
+
+.container-textarea{
+    flex-grow: 5;
+    padding-top: 80px;
+}
+
+.text-area{
+    box-sizing: border-box;
+    font-size: 32px;
+    font-family: 'inter', sans-serif;
+    width: 100%;
+    height: 95%;
+    padding: 30px;
+    border: none;
+    background-color: #e5e5e5;
+    resize: none;
+}
+
+.text-area::placeholder{
+    color: #0a3871;
+}
+
+.vital{
+    /* background-color: #f99; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: .4;
+}
+
+.consideraciones{
+    display: flex;
+    font-family: 'inter', sans-serif;
+    font-size: 12px;
+    padding: 10px 0;
+    gap: 5px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.botones .btn{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-family: 'inter', sans-serif;
+}
+
+.btn-encriptar{
+    background-color: #0a3871;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    border: none;
+    font-size: 16px;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+}
+
+
+/*----Section 2----*/
+
+.container-section2{
+    box-sizing: border-box;
+    background-color: #fff;
+    flex-grow: 1;
+    margin: 25px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    justify-content: space-around;
+}
+
+.section2-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section2-items .texto1{
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section2-items .texto2{
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    text-align: center;
+}
+
+.img-muneco{
+    width: 100%;
+}
+
